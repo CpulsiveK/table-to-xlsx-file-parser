@@ -9,8 +9,6 @@ def pickFile():
         title="Select a file",
         filetypes=(
             ("pdf files", "*.pdf"),
-            ("docx files", "*.docx"),
-            ("odt files", "*.odt")
         )
     )
 
