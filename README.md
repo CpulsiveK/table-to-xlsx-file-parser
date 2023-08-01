@@ -25,7 +25,7 @@ Only pdf files are supported for now.
 To run the tool navigate to the "src" directory in your cloned repository and run:
 "python main.py"
 
-A GUI window will open in a minimized state, double tap on the title bar to maximize it. To parse a pdf, click on the button in the middle of the screen with a description "Upload file" as show below
+A GUI window will open in a minimized state, double tap on the title bar to maximize it. To parse a pdf, click on the button in the middle of the screen with a description "Upload file" as show.
 ![Screenshot from 2023-08-01 16-11-20](https://github.com/CpulsiveK/table-to-xlsx-file-parser/assets/78286658/b7c125de-2136-4193-9abc-73ed49e7d321)
 
 A dialogue box will pop allowing you to navigate your directory to select the pdf you want to parse.
