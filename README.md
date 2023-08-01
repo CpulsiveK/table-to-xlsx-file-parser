@@ -25,11 +25,11 @@ Only pdf files are supported for now.
 To run the tool navigate to the "src" directory in your cloned repository and run:
 "python main.py"
 
-A GUI window will open in a minimized state, double tap on the title bar to maximize it. To parse a pdf, click on the button in the middle of the screen with a description "Upload file" as show.
+A GUI window will open in a minimized state, double tap on the title bar to maximize it. To parse a pdf, click on the button in the middle of the screen with a description "Upload file" as show below.
 ![Screenshot from 2023-08-01 16-11-20](https://github.com/CpulsiveK/table-to-xlsx-file-parser/assets/78286658/b7c125de-2136-4193-9abc-73ed49e7d321)
 
 A dialogue box will pop allowing you to navigate your directory to select the pdf you want to parse.
 ![Screenshot from 2023-08-01 16-15-58](https://github.com/CpulsiveK/table-to-xlsx-file-parser/assets/78286658/490ab9fd-1790-4c80-96cd-15175fc613af)
 
-After selecting a file you will be navigated back to the main window, this means the parsing process is complete. To view the output file navigate to the "src" directory in the cloned repository and you should see the output file with name "converted_file.xlsx" as shown below.
+After selecting a file you will be navigated back to the main window, this means the parsing process is complete. To view the output file navigate to the "src" directory in the cloned repository and you should see the output file with name "converted_file.xlsx" as shown.
 ![Screenshot from 2023-08-01 16-22-47](https://github.com/CpulsiveK/table-to-xlsx-file-parser/assets/78286658/e92927d2-3fd8-4d01-856d-1e85fd557ea9)
