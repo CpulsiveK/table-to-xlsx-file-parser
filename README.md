@@ -4,7 +4,7 @@ This repository contains a Python application that converts a PDF with table con
 
 ## Prerequisites
 Clone the repository.
-Before running the tool make sure the below python libraries are installed
+Before running the tool make sure the below Python libraries are installed
 1. [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/)
 2. [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 NB:
-For better result make sure each pdf file contains a single table as having multiple tables in one file will have all the contents of it parsed to one excel worksheet.
+For better results make sure each PDF file contains a single table as having multiple tables in one file will have all the contents parsed into one Excel worksheet.
 Only pdf files are supported for now.
 
 
