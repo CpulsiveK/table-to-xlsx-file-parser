@@ -8,12 +8,9 @@ Before running the tool make sure the below python libraries are installed
 1. [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/)
 2. [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 
-Run the commands below in your terminal to install the above libraries
+Run the command below in your terminal to install the above libraries
 ```bash
-pip install PyPDF2
-```
-```bash
-pip install openpyxl
+pip install -r requirements.txt
 ```
 
 NB:
