@@ -2,19 +2,7 @@ from tkinter import filedialog
 from PyPDF2 import PdfReader
 from openpyxl import *
 
-
-def pickFile():
-    file_path = filedialog.askopenfilename(
-        initialdir="/",
-        title="Select a file",
-        filetypes=(
-            ("pdf files", "*.pdf"),
-        )
-    )
-
-    if file_path:
-        print(file_path)
-        excelParser(file_path)
+from utils.save_files import save_output_file
 
 
 def excelParser(file_path):
@@ -39,4 +27,4 @@ def excelParser(file_path):
 
     output_excel_file = "converted_file.xlsx"
 
-    workbook.save(output_excel_file)
+    save_output_file("Documents", workbook, output_excel_file)
