@@ -11,7 +11,7 @@ class BuilderInterface:
         pass
 
 
-class Builder:
+class Builder(BuilderInterface):
     def __init__(self) -> None:
         self.widget = Widget()
 
