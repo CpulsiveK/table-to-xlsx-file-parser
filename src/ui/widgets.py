@@ -1,4 +1,4 @@
-from tkinter import Button
+from tkinter import Button, Frame
 
 
 class Widget:
@@ -15,7 +15,8 @@ class Builder(BuilderInterface):
     def __init__(self) -> None:
         self.widget = Widget()
 
-    def button(self, main_window, text, command, height, width, highlightbackground, highlightthickness):
+    def button(
+            self, main_window: Frame, text: str, command, height: int, width: int, highlightbackground: str, highlightthickness: int):
         self.widget.button = Button(
             main_window,
             text=text,
